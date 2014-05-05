@@ -1,0 +1,66 @@
+/* <system section="theme" selected="report"> */
+@import "/css/theme/report/report.css";
+/* </system> */
+
+/* <system section="background" selected="default"> */
+/* default */
+/* </system> */
+
+
+.entry-content h4{  
+    background:#eee; 
+    border-left:10px solid #ccc;  
+    border-top:1px solid #ccc;
+    padding:.6em .6em;
+    line-height: 80%;
+}  
+    
+pre{
+  white-space: pre-wrap;
+  word-wrap: break-word;  
+}
+pre .code {
+  font-size: 80%;
+  background: #fafafa;
+}
+
+
+@media screen and (min-width:1200px) {
+    
+#container{
+    width: 1100px;
+}
+
+#content {
+  padding-left: 70px;
+}
+
+#content-inner {
+  zoom: 1;
+}
+#content-inner:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#wrapper {
+  float: left;
+  width: 100%;
+   /*(サイドバーの幅 + 記事とサイドバーの間隔 ) × (-1) */
+  margin-right: -220px; 
+}
+#wrapper #main {
+  margin-left: 0px;
+   /*サイドバーの幅 + 記事とサイドバーの間隔  */
+  margin-right: 220px; 
+}
+#box2 {
+  float: right;
+   /*サイドバーの幅 */
+  width: 180px; 
+}
+
+.search-form .search-module-input {
+  width: 160px;
+}
+}
