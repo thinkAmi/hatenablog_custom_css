@@ -6,6 +6,9 @@
 /* default */
 /* </system> */
 
+/* for report */
+
+
 
 .entry-content h4{  
     background:#eee; 
@@ -17,11 +20,11 @@
     
 pre{
   white-space: pre-wrap;
-  word-wrap: break-word;  
+  word-wrap: break-word;
+  background: #fafafa;
 }
 pre .code {
   font-size: 80%;
-  background: #fafafa;
 }
 
 
