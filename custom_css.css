@@ -10,7 +10,7 @@
 
 /* フォント */
 body {
-    font-family: helvetica,Segoe UI,游ゴシック体,YuGothic,游ゴシック Medium,Yu Gothic Medium,游ゴシック,Yu Gothic,メイリオ,Meiryo,sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Univers', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
 }
 
 .entry-title a {
