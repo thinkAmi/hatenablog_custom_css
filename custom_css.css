@@ -8,30 +8,85 @@
 
 /* for report */
 
+/* フォント */
+body {
+    font-family: helvetica,Segoe UI,游ゴシック体,YuGothic,游ゴシック Medium,Yu Gothic Medium,游ゴシック,Yu Gothic,メイリオ,Meiryo,sans-serif;
+}
 
+.entry-title a {
+    font-size: 160%;
+}
 
-.entry-content h4{  
+.entry-content {
+    font-size: 17px;
+}
+
+.entry-content h1{  
     background:#eee; 
     border-left:10px solid #ccc;  
     border-top:1px solid #ccc;
     padding:.6em .6em;
     line-height: 80%;
-}  
     
-pre{
+    font-size: 160%;
+}
+
+.entry-content h2{  
+    border-left:10px solid #ccc;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:.6em .6em;
+    line-height: 80%;
+    
+    font-size: 155%;
+}
+
+.entry-content h3{  
+    border-left:10px solid #ccc;
+    border-top:1px solid #ccc;
+    padding:.6em .6em;
+    line-height: 80%;
+    
+    font-size: 150%;
+}
+
+.entry-content h4{  
+    border-left:10px solid #ccc;
+    border-bottom:1px solid #ccc;
+    padding:.6em .6em;
+    line-height: 80%;
+    
+    font-size: 145%;
+}
+
+.entry-content h5{
+    border-bottom:1px solid #ccc;
+    line-height: 80%;
+    padding-bottom:.6em;
+    
+    font-size: 140%;
+}
+
+.entry-content h6{
+    font-size: 130%;
+}
+
+
+/* ソースコード表示まわり */
+.entry-content pre{
   white-space: pre-wrap;
   word-wrap: break-word;
   background: #fafafa;
 }
-pre .code {
-  font-size: 80%;
+.entry-content pre.code {
+  font-size: 90%;
 }
 
 
 @media screen and (min-width:1200px) {
     
 #container{
-    width: 1100px;
+    width: 95%;
 }
 
 #content {
@@ -65,5 +120,10 @@ pre .code {
 
 .search-form .search-module-input {
   width: 160px;
+}
+
+/* キーワード下線を消す */
+a.keyword {
+    border: transparent 0px;
 }
 }
