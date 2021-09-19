@@ -43,8 +43,7 @@ body {
 
 .entry-content h3{  
     border-left:10px solid #ccc;
-    border-top:1px solid #ccc;
-    border-bottom: transparent 0px;
+    border-bottom: none;
     padding:.6em .6em;
     line-height: 80%;
     
@@ -52,8 +51,7 @@ body {
 }
 
 .entry-content h4{  
-    border-left:10px solid #ccc;
-    border-bottom:1px solid #ccc;
+    border-bottom:3px solid #ccc;
     padding:.6em .6em;
     line-height: 80%;
     
