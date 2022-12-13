@@ -33,8 +33,8 @@ body {
 
 .entry-content h2{  
     border-left:10px solid #ccc;
-    border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
+    border-top: none;
     padding:.6em .6em;
     line-height: 80%;
     
@@ -50,8 +50,8 @@ body {
     font-size: 150%;
 }
 
-.entry-content h4{  
-    border-bottom:3px solid #ccc;
+.entry-content h4{
+    border-bottom:2px solid #ccc;
     padding-bottom:.6em;
     line-height: 80%;
     
